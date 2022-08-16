@@ -1,0 +1,157 @@
+#Ejercicio 3
+#Escribir en papel un programa que pida al usuario dos valores cualquiera e imprima en pantalla la suma de ambos.
+
+#-----------------------------------------------------#
+        #Ejercicio 3
+# a = int(input("Escribir un número"));
+# b = int(input("Escribir un número"));
+# print(a + b)
+
+#-----------------------------------------------------#
+
+
+#Ejercicio 4
+#Escribir una expresión matemática que dado un número natural evalúe al siguiente número más
+#grande. Por ejemplo, dado el número 1 el resultado de evaluar la expresión es 2, dado 37 el resultado
+#es 38.
+
+#-----------------------------------------------------#
+
+#Ejercicio 4 A
+#escribirUnNumero = int(input("Escribir un numero"));
+#print(escribirUnNumero + 1);
+
+#-----------------------------------------------------#
+
+#-----------------------------------------------------#
+
+#Ejercicio 4 B
+#escribirUnNumero = int(input("Escribir un numero"));
+#print(escribirUnNumero + 1);
+
+#-----------------------------------------------------#
+
+#Ejercicio 5 
+
+ #num1 = int(input("Escrubir un numero"));
+ #num2 = int(input("Escrubir un numero"));
+
+ #print( (num1 + num2) / 2);
+
+
+#-----------------------------------------------------#
+
+#Ejercicio 6
+
+#print("Hola Mundo");
+
+#-----------------------------------------------------#
+
+#Ejercicio 7
+#print("v" + "\n" + "e" + "\n" + "r"+ "\n"+ "t" + "\n"+"i"+ "\n"+"c"+ "\n"+"a"+ "\n"+"l" )
+
+#-----------------------------------------------------#
+#Ejercicio 8 
+
+#print("*****" + "\n" + "*   * "+" \n" + "*   * "+"\n"+"*   * "+ "\n" + "*****" );
+
+#-----------------------------------------------------#
+
+#Ejercicio 9 
+
+#print("*" +  "\n" + "***" + "\n" +"*****" + "\n"+"*******" + "\n" + "*********" );
+
+
+#-----------------------------------------------------#
+#Ejercicio 10 
+
+#dato = input("Escribir algun dato: ") #lAS CADENAS SE PUDEN CON INPUT 
+
+#print(dato)
+
+#-----------------------------------------------------#
+
+#Ejercicio 11
+
+#valor = input("escribir un valor");
+#print("******************************" + "\n" + "*" + "El resultado es:"+ valor +"\n"+ "******************************" );
+
+#-----------------------------------------------------# 
+
+#-----------------------------------------------------# 
+#Ejercicio13
+
+#Suponga que una persona desea invertir su capital en un banco y quiere saber cuánto dinero tendrá en
+#su cuenta si el banco incrementa el 6 % mensual(no acumulativo). Se le debe pedir al usuario el capital
+#a invertir y la cantidad de meses. Por ejemplo, si invierte 500 mil pesos por 4 meses el banco debería
+#devolverle 620 mil pesos.
+
+
+#capital=int(input("Ingrese su capital: "))
+#tiempo=int(input("Ingrese la cantidad de meses: "))
+#interes=6
+#calculo=((capital*interes)/100)*tiempo
+#valor=calculo+capital
+#print("$",valor)
+
+#-----------------------------------------------------# 
+
+#-----------------------------------------------------# 
+
+#Ejercicio14
+
+#Una empresa telefónica desea un programa para calcular el importe de sus clientes. Sabiendo que el
+#costo por comunicación es de $12 y por cada segundo se cobra $1, 5 hacer dicho programa. Se deben
+#ingresar la cantidad de llamadas realizadas y el tiempo total de comunicación, el programa debe devolver
+#el precio a cobrar. Por ejemplo, si realizó 10 llamadas con un total de 4000 segundos el importe a pagar
+#sería de $6120
+
+
+#cantidadDeLlamadas = int(input("¿Cuantas llamadas hiciste?"));
+#cantidadDeSegundos = int(input("Ingresar la cantidad de segundos hablados"));
+#costoDeLlamada = 12;
+#costoPorSegundo = 1.5;
+#totalLlamadas = cantidadDeLlamadas * costoDeLlamada;
+#totalSegundos = cantidadDeSegundos * costoPorSegundo;
+#totalDelServicio = totalLlamadas + totalSegundos;
+#print(totalDelServicio );
+
+
+
+#-----------------------------------------------------# 
+
+#Ejercicio15
+
+#sueldoBase = 42000;
+#comision = 10;
+
+#venta1 = int(input("Ingresar el valor de la venta 1"));
+#venta2 = int(input("Ingresar el valor de la venta 2"));
+#venta3 = int(input("Ingresar el valor de la venta 3"));
+ 
+#totalDeVenta1 = (venta1 * comision)/100;
+#totalDeVenta2 = (venta2 * comision)/100;
+#totalDeVenta3 = (venta3 * comision)/100;
+
+#totalDeComision = totalDeVenta1 + totalDeVenta2 + totalDeVenta3
+
+#sueldoTotal = sueldoBase + totalDeComision
+
+#print(sueldoTotal)
+
+
+#-----------------------------------------------------# 
+
+#Ejercicio16
+
+cantidadDeSegundos = int(input("Ingresar cantidad de Segundos"));
+
+
+minutos = (cantidadDeSegundos * 1)/ 60
+horas = (cantidadDeSegundos* 1 ) / 3600
+dias =  (horas * 1)/24
+
+print("Minutos:" + " " + str(minutos))
+print("Horas:" + " " + str(horas))
+print("Dias:"+ " " +str(dias))
+
